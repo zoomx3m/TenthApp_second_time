@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLay_5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorHeart">
+
+    <RelativeLayout
+        android:id="@+id/rellay5_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_heart_FH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/ic_heart" />
+
+        <LinearLayout
+            android:id="@+id/linlay_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/iv_heart_FH"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorHeart"
+            android:orientation="horizontal"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp">
+
+            <SeekBar
+                android:id="@+id/skb_alfa"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:progressTint="@color/colorWhite"
+                android:thumbTint="@color/colorWhite"
+                android:layout_weight="2"
+                android:progress="100"/>
+
+            <View
+                android:id="@+id/v_img_alpha"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_alpha"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/linlay_alpha"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorHeart"
+            android:orientation="horizontal"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp">
+
+            <SeekBar
+                android:id="@+id/skb_rotate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:progressTint="@color/colorWhite"
+                android:thumbTint="@color/colorWhite"
+                android:layout_weight="2"
+                android:progress="0"/>
+
+            <View
+                android:id="@+id/v_img_rotate"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_rotate"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay_scale"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/linlay_rotate"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorHeart"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/skb_scale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:progressTint="@color/colorWhite"
+                android:thumbTint="@color/colorWhite"
+                android:progress="100"/>
+
+            <View
+                android:id="@+id/v_img_Scale"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_scale" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

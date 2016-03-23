@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TenthApp</string>
+    <string name="ball">ball</string>
+    <string name="list">list</string>
+    <string name="heart">heart</string>
+    <string name="Pleas_choose">Pleas choose item in Navigation bar menu!</string>
+</resources>
